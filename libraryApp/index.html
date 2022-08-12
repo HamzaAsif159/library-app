@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="form-container">
+      <div class="Popup">Book added!</div>
+      <form action="" >
+        <img src="/images/cancel.png" alt="" id="close" />
+        <input type="text" id="name" placeholder="Book name" required />
+        <input
+          type="text"
+          id="author-name"
+          placeholder="Author name"
+          required
+        />
+        <input type="number" id="pages" placeholder="No of pages" required />
+        <input
+          type="text"
+          id="status"
+          placeholder="Status(read/not read)"
+          required
+        />
+        <input type="submit" id="submit" />
+      </form>
+    </section>
+    <section class="main">
+      <header>
+        <h1>Library</h1>
+        <img src="/images/book.png" alt="book" />
+      </header>
+      <h1>Do you want to add books?</h1>
+      <h3>click <span id="form-refer">here</span></h3>
+    </section>
+
+    <section class="books-container">
+      <div class="books-heading">
+        <h1 class="">Your Books</h1>
+        <img src="/images/read.png" alt="" />
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="book-name">Stick to it</div>
+          <div class="author">Stphen</div>
+          <div class="no-of-pages">44</div>
+        </div>
+        <div class="card">
+          <div class="book-name">Stick to it</div>
+          <div class="author">Stphen</div>
+          <div class="no-of-pages">44</div>
+        </div>
+        <div class="card">
+          <div class="book-name">Stick to it</div>
+          <div class="author">Stphen</div>
+          <div class="no-of-pages">44 pages</div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js" async defer></script>
+  </body>
+</html>
